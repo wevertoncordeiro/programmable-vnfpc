@@ -1,0 +1,535 @@
+
+Topology
+
+endpoint e1 e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e2 e20 e21 e22 e23 e24 e25 e3 e4 e5 e6 e7 e8 e9
+physical_switch ps1 128
+physical_switch ps10 128
+physical_switch ps11 128
+physical_switch ps12 128
+physical_switch ps13 128
+physical_switch ps14 128
+physical_switch ps15 128
+physical_switch ps16 128
+physical_switch ps17 128
+physical_switch ps18 128
+physical_switch ps19 128
+physical_switch ps2 128
+physical_switch ps20 128
+physical_switch ps21 128
+physical_switch ps22 128
+physical_switch ps23 128
+physical_switch ps24 128
+physical_switch ps25 128
+physical_switch ps26 128
+physical_switch ps27 128
+physical_switch ps28 128
+physical_switch ps29 128
+physical_switch ps3 128
+physical_switch ps30 128
+physical_switch ps31 128
+physical_switch ps32 128
+physical_switch ps33 128
+physical_switch ps34 128
+physical_switch ps35 128
+physical_switch ps36 128
+physical_switch ps37 128
+physical_switch ps38 128
+physical_switch ps39 128
+physical_switch ps4 128
+physical_switch ps40 128
+physical_switch ps41 128
+physical_switch ps42 128
+physical_switch ps43 128
+physical_switch ps44 128
+physical_switch ps45 128
+physical_switch ps46 128
+physical_switch ps47 128
+physical_switch ps48 128
+physical_switch ps49 128
+physical_switch ps5 128
+physical_switch ps50 128
+physical_switch ps6 128
+physical_switch ps7 128
+physical_switch ps8 128
+physical_switch ps9 128
+network_pop npop1 1 1
+network_pop npop10 1 1
+network_pop npop11 1 1
+network_pop npop12 1 1
+network_pop npop13 1 1
+network_pop npop14 1 1
+network_pop npop15 1 1
+network_pop npop16 1 1
+network_pop npop17 1 1
+network_pop npop18 1 1
+network_pop npop19 1 1
+network_pop npop2 1 1
+network_pop npop20 1 1
+network_pop npop21 1 1
+network_pop npop22 1 1
+network_pop npop23 1 1
+network_pop npop24 1 1
+network_pop npop25 1 1
+network_pop npop26 1 1
+network_pop npop27 1 1
+network_pop npop28 1 1
+network_pop npop29 1 1
+network_pop npop3 1 1
+network_pop npop30 1 1
+network_pop npop31 1 1
+network_pop npop32 1 1
+network_pop npop33 1 1
+network_pop npop34 1 1
+network_pop npop35 1 1
+network_pop npop36 1 1
+network_pop npop37 1 1
+network_pop npop38 1 1
+network_pop npop39 1 1
+network_pop npop4 1 1
+network_pop npop40 1 1
+network_pop npop41 1 1
+network_pop npop42 1 1
+network_pop npop43 1 1
+network_pop npop44 1 1
+network_pop npop45 1 1
+network_pop npop46 1 1
+network_pop npop47 1 1
+network_pop npop48 1 1
+network_pop npop49 1 1
+network_pop npop5 1 1
+network_pop npop50 1 1
+network_pop npop6 1 1
+network_pop npop7 1 1
+network_pop npop8 1 1
+network_pop npop9 1 1
+link ps1 npop1 10000.0 	#1
+link ps1 ps10 10000.0 	#2
+link ps1 ps12 10000.0 	#3
+link ps1 ps2 10000.0 	#4
+link ps1 ps23 10000.0 	#5
+link ps1 ps3 10000.0 	#6
+link ps1 ps31 10000.0 	#7
+link ps1 ps32 10000.0 	#8
+link ps1 ps39 10000.0 	#9
+link ps1 ps4 10000.0 	#10
+link ps1 ps46 10000.0 	#11
+link ps1 ps5 10000.0 	#12
+link ps1 ps50 10000.0 	#13
+link ps1 ps6 10000.0 	#14
+link ps1 ps9 10000.0 	#15
+link ps10 npop10 10000.0 	#16
+link ps10 ps14 10000.0 	#17
+link ps10 ps18 10000.0 	#18
+link ps10 ps19 10000.0 	#19
+link ps10 ps25 10000.0 	#20
+link ps10 ps28 10000.0 	#21
+link ps10 ps34 10000.0 	#22
+link ps10 ps38 10000.0 	#23
+link ps10 ps40 10000.0 	#24
+link ps10 ps47 10000.0 	#25
+link ps11 e10 10000.0 	#26
+link ps11 npop11 10000.0 	#27
+link ps11 ps18 10000.0 	#28
+link ps11 ps20 10000.0 	#29
+link ps11 ps22 10000.0 	#30
+link ps11 ps40 10000.0 	#31
+link ps11 ps49 10000.0 	#32
+link ps11 ps50 10000.0 	#33
+link ps12 npop12 10000.0 	#34
+link ps12 ps19 10000.0 	#35
+link ps12 ps21 10000.0 	#36
+link ps12 ps24 10000.0 	#37
+link ps12 ps26 10000.0 	#38
+link ps12 ps49 10000.0 	#39
+link ps13 npop13 10000.0 	#40
+link ps13 ps36 10000.0 	#41
+link ps14 e19 10000.0 	#42
+link ps14 npop14 10000.0 	#43
+link ps14 ps19 10000.0 	#44
+link ps14 ps22 10000.0 	#45
+link ps14 ps45 10000.0 	#46
+link ps14 ps46 10000.0 	#47
+link ps14 ps48 10000.0 	#48
+link ps15 e2 10000.0 	#49
+link ps15 npop15 10000.0 	#50
+link ps15 ps23 10000.0 	#51
+link ps15 ps44 10000.0 	#52
+link ps16 npop16 10000.0 	#53
+link ps16 ps21 10000.0 	#54
+link ps16 ps45 10000.0 	#55
+link ps17 npop17 10000.0 	#56
+link ps17 ps22 10000.0 	#57
+link ps17 ps27 10000.0 	#58
+link ps17 ps30 10000.0 	#59
+link ps17 ps41 10000.0 	#60
+link ps17 ps43 10000.0 	#61
+link ps17 ps44 10000.0 	#62
+link ps18 e22 10000.0 	#63
+link ps18 e6 10000.0 	#64
+link ps18 npop18 10000.0 	#65
+link ps18 ps24 10000.0 	#66
+link ps19 e23 10000.0 	#67
+link ps19 npop19 10000.0 	#68
+link ps19 ps26 10000.0 	#69
+link ps19 ps38 10000.0 	#70
+link ps19 ps43 10000.0 	#71
+link ps19 ps45 10000.0 	#72
+link ps2 e5 10000.0 	#73
+link ps2 npop2 10000.0 	#74
+link ps2 ps13 10000.0 	#75
+link ps2 ps17 10000.0 	#76
+link ps2 ps22 10000.0 	#77
+link ps2 ps28 10000.0 	#78
+link ps2 ps3 10000.0 	#79
+link ps2 ps36 10000.0 	#80
+link ps2 ps37 10000.0 	#81
+link ps2 ps38 10000.0 	#82
+link ps2 ps4 10000.0 	#83
+link ps2 ps41 10000.0 	#84
+link ps2 ps5 10000.0 	#85
+link ps2 ps6 10000.0 	#86
+link ps2 ps7 10000.0 	#87
+link ps20 npop20 10000.0 	#88
+link ps20 ps25 10000.0 	#89
+link ps20 ps29 10000.0 	#90
+link ps20 ps42 10000.0 	#91
+link ps20 ps43 10000.0 	#92
+link ps21 e12 10000.0 	#93
+link ps21 npop21 10000.0 	#94
+link ps21 ps29 10000.0 	#95
+link ps21 ps35 10000.0 	#96
+link ps22 e3 10000.0 	#97
+link ps22 npop22 10000.0 	#98
+link ps22 ps28 10000.0 	#99
+link ps23 npop23 10000.0 	#100
+link ps23 ps33 10000.0 	#101
+link ps24 npop24 10000.0 	#102
+link ps24 ps32 10000.0 	#103
+link ps24 ps33 10000.0 	#104
+link ps24 ps48 10000.0 	#105
+link ps25 npop25 10000.0 	#106
+link ps25 ps30 10000.0 	#107
+link ps25 ps44 10000.0 	#108
+link ps26 npop26 10000.0 	#109
+link ps26 ps31 10000.0 	#110
+link ps26 ps37 10000.0 	#111
+link ps26 ps39 10000.0 	#112
+link ps26 ps41 10000.0 	#113
+link ps26 ps44 10000.0 	#114
+link ps27 npop27 10000.0 	#115
+link ps27 ps34 10000.0 	#116
+link ps27 ps40 10000.0 	#117
+link ps28 npop28 10000.0 	#118
+link ps28 ps40 10000.0 	#119
+link ps29 npop29 10000.0 	#120
+link ps29 ps34 10000.0 	#121
+link ps29 ps46 10000.0 	#122
+link ps3 npop3 10000.0 	#123
+link ps3 ps11 10000.0 	#124
+link ps3 ps12 10000.0 	#125
+link ps3 ps13 10000.0 	#126
+link ps3 ps16 10000.0 	#127
+link ps3 ps21 10000.0 	#128
+link ps3 ps24 10000.0 	#129
+link ps3 ps27 10000.0 	#130
+link ps3 ps28 10000.0 	#131
+link ps3 ps33 10000.0 	#132
+link ps3 ps35 10000.0 	#133
+link ps3 ps4 10000.0 	#134
+link ps3 ps5 10000.0 	#135
+link ps3 ps6 10000.0 	#136
+link ps3 ps7 10000.0 	#137
+link ps3 ps8 10000.0 	#138
+link ps3 ps9 10000.0 	#139
+link ps30 npop30 10000.0 	#140
+link ps30 ps36 10000.0 	#141
+link ps30 ps38 10000.0 	#142
+link ps31 npop31 10000.0 	#143
+link ps31 ps42 10000.0 	#144
+link ps31 ps49 10000.0 	#145
+link ps32 npop32 10000.0 	#146
+link ps32 ps37 10000.0 	#147
+link ps33 npop33 10000.0 	#148
+link ps34 npop34 10000.0 	#149
+link ps34 ps39 10000.0 	#150
+link ps35 e13 10000.0 	#151
+link ps35 npop35 10000.0 	#152
+link ps36 npop36 10000.0 	#153
+link ps36 ps47 10000.0 	#154
+link ps37 e14 10000.0 	#155
+link ps37 e15 10000.0 	#156
+link ps37 e21 10000.0 	#157
+link ps37 npop37 10000.0 	#158
+link ps37 ps48 10000.0 	#159
+link ps38 e1 10000.0 	#160
+link ps38 npop38 10000.0 	#161
+link ps38 ps49 10000.0 	#162
+link ps39 e7 10000.0 	#163
+link ps39 npop39 10000.0 	#164
+link ps4 npop4 10000.0 	#165
+link ps4 ps11 10000.0 	#166
+link ps4 ps15 10000.0 	#167
+link ps4 ps16 10000.0 	#168
+link ps4 ps19 10000.0 	#169
+link ps4 ps20 10000.0 	#170
+link ps4 ps30 10000.0 	#171
+link ps4 ps31 10000.0 	#172
+link ps4 ps41 10000.0 	#173
+link ps4 ps5 10000.0 	#174
+link ps4 ps7 10000.0 	#175
+link ps4 ps8 10000.0 	#176
+link ps4 ps9 10000.0 	#177
+link ps40 npop40 10000.0 	#178
+link ps40 ps47 10000.0 	#179
+link ps41 e20 10000.0 	#180
+link ps41 npop41 10000.0 	#181
+link ps41 ps48 10000.0 	#182
+link ps42 e18 10000.0 	#183
+link ps42 npop42 10000.0 	#184
+link ps43 e8 10000.0 	#185
+link ps43 npop43 10000.0 	#186
+link ps44 e4 10000.0 	#187
+link ps44 npop44 10000.0 	#188
+link ps45 e11 10000.0 	#189
+link ps45 e9 10000.0 	#190
+link ps45 npop45 10000.0 	#191
+link ps46 e17 10000.0 	#192
+link ps46 npop46 10000.0 	#193
+link ps47 npop47 10000.0 	#194
+link ps48 npop48 10000.0 	#195
+link ps49 npop49 10000.0 	#196
+link ps5 e25 10000.0 	#197
+link ps5 npop5 10000.0 	#198
+link ps5 ps10 10000.0 	#199
+link ps5 ps12 10000.0 	#200
+link ps5 ps15 10000.0 	#201
+link ps5 ps16 10000.0 	#202
+link ps5 ps17 10000.0 	#203
+link ps5 ps18 10000.0 	#204
+link ps5 ps20 10000.0 	#205
+link ps5 ps23 10000.0 	#206
+link ps5 ps26 10000.0 	#207
+link ps5 ps27 10000.0 	#208
+link ps5 ps30 10000.0 	#209
+link ps5 ps34 10000.0 	#210
+link ps5 ps35 10000.0 	#211
+link ps5 ps47 10000.0 	#212
+link ps5 ps50 10000.0 	#213
+link ps5 ps6 10000.0 	#214
+link ps5 ps7 10000.0 	#215
+link ps5 ps8 10000.0 	#216
+link ps50 npop50 10000.0 	#217
+link ps6 npop6 10000.0 	#218
+link ps6 ps10 10000.0 	#219
+link ps6 ps11 10000.0 	#220
+link ps6 ps13 10000.0 	#221
+link ps6 ps14 10000.0 	#222
+link ps6 ps15 10000.0 	#223
+link ps6 ps17 10000.0 	#224
+link ps6 ps20 10000.0 	#225
+link ps6 ps21 10000.0 	#226
+link ps6 ps26 10000.0 	#227
+link ps6 ps29 10000.0 	#228
+link ps6 ps31 10000.0 	#229
+link ps6 ps32 10000.0 	#230
+link ps6 ps36 10000.0 	#231
+link ps6 ps42 10000.0 	#232
+link ps6 ps45 10000.0 	#233
+link ps6 ps46 10000.0 	#234
+link ps6 ps8 10000.0 	#235
+link ps6 ps9 10000.0 	#236
+link ps7 e16 10000.0 	#237
+link ps7 npop7 10000.0 	#238
+link ps7 ps10 10000.0 	#239
+link ps7 ps11 10000.0 	#240
+link ps7 ps13 10000.0 	#241
+link ps7 ps14 10000.0 	#242
+link ps7 ps25 10000.0 	#243
+link ps8 e24 10000.0 	#244
+link ps8 npop8 10000.0 	#245
+link ps8 ps16 10000.0 	#246
+link ps8 ps18 10000.0 	#247
+link ps8 ps23 10000.0 	#248
+link ps8 ps24 10000.0 	#249
+link ps8 ps27 10000.0 	#250
+link ps8 ps29 10000.0 	#251
+link ps8 ps35 10000.0 	#252
+link ps8 ps37 10000.0 	#253
+link ps8 ps50 10000.0 	#254
+link ps9 npop9 10000.0 	#255
+link ps9 ps12 10000.0 	#256
+link ps9 ps14 10000.0 	#257
+link ps9 ps15 10000.0 	#258
+link ps9 ps17 10000.0 	#259
+link ps9 ps25 10000.0 	#260
+link ps9 ps32 10000.0 	#261
+link ps9 ps33 10000.0 	#262
+link ps9 ps39 10000.0 	#263
+link ps9 ps42 10000.0 	#264
+link ps9 ps43 10000.0 	#265
+
+
+SFC Q1
+
+endpoint e16 e21 e3
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e16 lb 50.0 vs_int	#1
+virtual_link e21 fw 100 vs_int	#2
+virtual_link e3 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q2
+
+endpoint e14 e3 e5
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e14 lb 50.0 vs_int	#1
+virtual_link e3 fw 100 vs_int	#2
+virtual_link e5 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q3
+
+endpoint e10 e14 e25
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e10 fw 100 vs_int	#1
+virtual_link e14 lb 50.0 vs_int	#2
+virtual_link e25 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q4
+
+endpoint e2 e20 e4
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e2 lb 50.0 vs_int	#1
+virtual_link e20 lb 50.0 vs_int	#2
+virtual_link e4 fw 100 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q5
+
+endpoint e13 e19 e23
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e13 fw 100 vs_int	#1
+virtual_link e19 lb 50.0 vs_int	#2
+virtual_link e23 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q6
+
+endpoint e17 e18 e9
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e17 lb 50.0 vs_int	#1
+virtual_link e18 fw 100 vs_int	#2
+virtual_link e9 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q7
+
+endpoint e1 e10 e2
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e1 lb 50.0 vs_int	#1
+virtual_link e10 lb 50.0 vs_int	#2
+virtual_link e2 fw 100 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q8
+
+endpoint e18 e20 e4
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e18 lb 50.0 vs_int	#1
+virtual_link e20 lb 50.0 vs_int	#2
+virtual_link e4 fw 100 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q9
+
+endpoint e10 e14 e7
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e10 lb 50.0 vs_int	#1
+virtual_link e14 lb 50.0 vs_int	#2
+virtual_link e7 fw 100 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q10
+
+endpoint e2 e23 e5
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e2 lb 50.0 vs_int	#1
+virtual_link e23 lb 50.0 vs_int	#2
+virtual_link e5 fw 100 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q11
+
+endpoint e11 e12 e5
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e11 fw 100 vs_int	#1
+virtual_link e12 lb 50.0 vs_int	#2
+virtual_link e5 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q12
+
+endpoint e13 e15 e17
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e13 fw 100 vs_int	#1
+virtual_link e15 lb 50.0 vs_int	#2
+virtual_link e17 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q13
+
+endpoint e20 e21 e22
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e20 lb 50.0 vs_int	#1
+virtual_link e21 fw 100 vs_int	#2
+virtual_link e22 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q14
+
+endpoint e17 e20 e9
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e17 lb 50.0 vs_int	#1
+virtual_link e20 fw 100 vs_int	#2
+virtual_link e9 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+
+
+SFC Q15
+
+endpoint e21 e23 e24
+virtual_function fw 0.1 0.1
+virtual_function lb 0.1 0.1
+virtual_link e21 fw 100 vs_int	#1
+virtual_link e23 lb 50.0 vs_int	#2
+virtual_link e24 lb 50.0 vs_int	#3
+virtual_link fw lb 100 vs_int	#4
+

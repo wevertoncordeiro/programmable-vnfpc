@@ -117,7 +117,7 @@ python3 workload_generator.py -h #to obtain instructions
 ## Project Structure
 ```text
 programmable-vnfpc/
-├── inputs/                 # Input data files
+├── inputs/                # Input data files
 │   ├── inputs_seed1/      # Input files for seed 1
 │   ├── inputs_seed2/      # Input files for seed 2
 │   ├── inputs_seed3/      # Input files for seed 3
@@ -125,12 +125,12 @@ programmable-vnfpc/
 │   └── inputs_seed5/      # Input files for seed 5
 ├── outputs_dqn/           # DQN solver output files (.json)
 ├── outputs_milp/          # MILP solver output files (.json)
-├── workload_generator/      # Tool for generating other inputs
+├── workload_generator/    # Tool for generating other inputs
 ├── run_solver_dqn.sh      # DQN solver execution script
 ├── run_solver_milp.sh     # MILP solver execution script
-├── plot.py               # Results visualization and plotting script
+├── plot.py                # Results visualization and plotting script
 ├── requirements.txt       # Python dependencies
-└── README.md             # This file
+└── README.md              # This file
 
 ```
 

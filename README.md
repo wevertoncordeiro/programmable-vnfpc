@@ -131,6 +131,11 @@ programmable-vnfpc/
 ├── plot.py                # Results visualization and plotting script
 ├── requirements.txt       # Python dependencies
 └── README.md              # This file
+├── sfc_combined.pdf       # Shows multiple key metrics in a single comprehensive plot
+├── sfc_deployed.pdf       # Visualizes the number and distribution of deployed SFC instances
+├── sfc_time_log.pdf       # Compares the computation time of DQN vs MILP using logarithmic scale
+├── sfc_vnf.pdf            # Shows the number of VNF instances deployed
+├── sfc_vs.pdf             # Shows the number of virtual switch instances
 
 ```
 
